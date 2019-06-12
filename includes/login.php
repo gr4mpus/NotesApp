@@ -8,7 +8,8 @@
         $username = $_POST['username'];
         $password =  $_POST['password'];
 
-        $username = mysqli_real_escape_string($connection, $username);
+        if(!empty(username) && !empty($password)){
+            $username = mysqli_real_escape_string($connection, $username);
         $password = mysqli_real_escape_string($connection, $password);
 
         $query = "SELECT * FROM users WHERE username = '{$username}'";
@@ -40,6 +41,11 @@
         }else{
             header("Location: ../index.php");
         }
+        }else{
+            header("Location: ../index.php");
+        }
+
+        
         
     }
 ?>

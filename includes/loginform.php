@@ -18,7 +18,7 @@
     <div class="nav-wrapper">
       <a style="padding-left:24px;" href="#" class="brand-logo">Notes</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="index.php">Home</a></li>
+        <li><a href="../index.php">Home</a></li>
       </ul>
     </div>
   </nav>

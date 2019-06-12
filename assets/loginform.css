@@ -16,6 +16,7 @@ body{
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
+  color: rgb(38, 38, 104);
 }
 
 .form-parent label{
@@ -37,6 +38,15 @@ body{
 
 .form-parent ::placeholder{
   color: rgb(44, 99, 182);
+  background-color: rgb(207, 218, 218);
+}
+
+.btn-large{
+    background-color: rgb(55, 55, 197);
+}
+
+.btn-large:hover{
+  background-color: rgb(29, 29, 151);
 }
 
 
@@ -71,6 +81,10 @@ body{
     .form-parent ::placeholder{
       padding: 48x 12px;
     }
+
+    #already-register-btn{
+      margin-top: 12px;
+  }
 }
 @media only screen and (max-width: 600px) {
   
@@ -86,28 +100,24 @@ body{
   
   .form-parent ::-webkit-input-placeholder {
       font-size: 16px;
-      color: rgb(44, 99, 182);
       padding: 36px 12px;
     }
     .form-parent ::-moz-placeholder {
       font-size: 16px;
-      color: rgb(44, 99, 182);
       padding: 36px 12px;
     }
     .form-parent :-ms-input-placeholder {
       font-size: 16px;
-      color: rgb(44, 99, 182);
       padding: 36px 12px;
     }
     .form-parent :-moz-placeholder {
       font-size: 16px;
-      color: rgb(44, 99, 182);
       padding: 36px 12px;
+
     }
   
     .form-parent ::placeholder{
       font-size: 16px;
-      color: rgb(44, 99, 182);
       padding: 48x 12px;
     }
   

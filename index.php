@@ -1,11 +1,18 @@
 <?php include "includes/registrationquery.php";
 if(isset($_POST['submit'])){
+
     $firstname = $_POST['firstname'];
     $lastname = $_POST['lastname'];
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    registerUser($firstname, $lastname, $username, $password);
+    if(!empty($firstname) && !empty(lastname) && !empty(username) && !empty(password)){
+        registerUser($firstname, $lastname, $username, $password);
+    }else{
+        header("Location: index.php");
+    }
+
+    
 }
 ?>
 
