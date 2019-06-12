@@ -1,0 +1,60 @@
+.form-parent{
+    width: 90%;
+    margin: 40px auto 56px auto;
+}
+
+.form-parent label{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.notes-card{
+    padding: 32px;
+    width: 90%;
+    margin: 32px auto;
+    border-radius: 12px;
+
+}
+
+.notes-card h1{
+    margin:0;
+    font-size: 28px;
+    padding-left: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    border-left: 5px solid red;
+}
+
+.notes-card p{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-parent{
+        margin: 40 auto 20px auto;
+    }
+
+    .form-parent label{
+        font-size: 20px;
+    }
+    
+    .notes-card{
+        padding: 16px;
+        margin: 20px auto;
+    
+    }
+    
+    .notes-card h1{
+        margin:0;
+        font-size: 20px;
+        padding-left: 8px;
+        border-left: 3px solid red;
+    }
+    
+    .notes-card p{
+        font-size: 16px;
+    }
+}

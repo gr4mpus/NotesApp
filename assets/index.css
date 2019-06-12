@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    height: 100vh;
+}
+
+.form-parent{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-parent h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.form-parent label{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-parent ::-webkit-input-placeholder {
+    color: rgb(44, 99, 182);
+  }
+  .form-parent ::-moz-placeholder {
+    color: rgb(44, 99, 182);
+  }
+  .form-parent :-ms-input-placeholder {
+    color: rgb(44, 99, 182);
+  }
+  .form-parent :-moz-placeholder {
+    color: rgb(44, 99, 182);
+  }
+
+  .form-parent ::placeholder{
+    color: rgb(44, 99, 182);
+  }
+
+
+@media only screen and (min-width: 600px) {
+    .form-parent{
+        width: 30%;
+        padding: 48px;
+    }
+    
+    .form-parent h2{
+        font-size: 42px;
+    }
+    
+    .form-parent label{
+        font-size: 16px;
+    }
+    
+    .form-parent ::-webkit-input-placeholder {
+        font-size: 18px;
+        padding: 36px 12px;
+      }
+      .form-parent ::-moz-placeholder {
+        padding: 36px 12px;
+      }
+      .form-parent :-ms-input-placeholder {
+        padding: 36px 12px;
+      }
+      .form-parent :-moz-placeholder {
+        padding: 36px 12px;
+      }
+    
+      .form-parent ::placeholder{
+        padding: 48x 12px;
+      }
+}
+@media only screen and (max-width: 600px) {
+    
+    .form-parent{
+        width: 80% !important;
+        padding: 16px;
+    }
+    
+    .form-parent h2{
+        font-size: 24px !important;
+    }
+    
+    
+    .form-parent ::-webkit-input-placeholder {
+        font-size: 16px;
+        color: rgb(44, 99, 182);
+        padding: 36px 12px;
+      }
+      .form-parent ::-moz-placeholder {
+        font-size: 16px;
+        color: rgb(44, 99, 182);
+        padding: 36px 12px;
+      }
+      .form-parent :-ms-input-placeholder {
+        font-size: 16px;
+        color: rgb(44, 99, 182);
+        padding: 36px 12px;
+      }
+      .form-parent :-moz-placeholder {
+        font-size: 16px;
+        color: rgb(44, 99, 182);
+        padding: 36px 12px;
+      }
+    
+      .form-parent ::placeholder{
+        font-size: 16px;
+        color: rgb(44, 99, 182);
+        padding: 48x 12px;
+      }
+    
+    
+    #already-register-btn{
+        margin-top: 8px;
+    }
+
+}
